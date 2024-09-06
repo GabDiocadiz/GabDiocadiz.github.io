@@ -186,9 +186,19 @@
             z-index: 0;
         }
 
-        /* Specific color backgrounds for sections */
-        .projects .box {
-            background-image: null;
+        /* Specific img backgrounds for sections */
+        .projects .box:first-child {
+            background-image: url('source/connect4.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .projects .box:nth-child(2) {
+            background-image: url('source/generositree.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .skills .box {
@@ -217,11 +227,7 @@
             background-position: center;
         }
 
-
-        /* .autobiography .box {
-            background-image: url('path/to/your-autobiography-image.jpg');
-        } */
-
+        /* Styles for Autobiography section */
         .autobiography {
             background-color: #f6e7ce;
             padding: 40px 20px;
@@ -303,12 +309,12 @@
             <h2>Previous Projects</h2>
             <div class="project-items">
                 <div class="box">
-                    <h3>Project 1</h3>
-                    <p>Details about Project 1.</p>
+                    <h3>Connect Four</h3>
+                    <p>Connect Four is a two-player connection game in which players take turns dropping colored discs into a vertical grid.</p>
                 </div>
                 <div class="box">
-                    <h3>Project 2</h3>
-                    <p>Details about Project 2.</p>
+                    <h3>Elbi GenerosiTree</h3>
+                    <p>This project is a Flutter-based application aimed at streamlining the process of managing donations coming into the university.</p>
                 </div>
                 <div class="box">
                     <h3>Project 3</h3>
