@@ -5,7 +5,7 @@ Gabrielle Therese D. Diocadiz
 BS Computer Science
 
 ## Live Website Link
-[My Portfolio](GabDiocadiz.github.io) 
+[My Portfolio](https://gabdiocadiz.github.io/) 
 
 ## Steps on How to Create a GitHub Page
 
